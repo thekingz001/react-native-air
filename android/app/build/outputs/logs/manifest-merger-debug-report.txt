@@ -6,6 +6,7 @@ INJECTED from /home/new/test_air/android/app/src/main/AndroidManifest.xml:1:1-33
 INJECTED from /home/new/test_air/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from /home/new/test_air/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from [:react-native-gesture-handler] /home/new/test_air/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-get-location] /home/new/test_air/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.react:react-native:0.61.5] /home/new/.gradle/caches/transforms-2/files-2.1/cff6474536097947514819e7f5e4d479/AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] /home/new/.gradle/caches/transforms-2/files-2.1/717c8d39a78f6179ac070965e73c326d/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/new/.gradle/caches/transforms-2/files-2.1/a76d69c9500acfbed01b19cd57a0ca43/AndroidManifest.xml:17:1-22:12
@@ -73,6 +74,8 @@ ADDED from /home/new/test_air/android/app/src/main/AndroidManifest.xml:5:5-79
 		ADDED from /home/new/test_air/android/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from /home/new/test_air/android/app/src/main/AndroidManifest.xml:11:1-76
+MERGED from [:react-native-get-location] /home/new/test_air/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [:react-native-get-location] /home/new/test_air/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
 	android:name
 		ADDED from /home/new/test_air/android/app/src/main/AndroidManifest.xml:11:18-74
 application
@@ -143,6 +146,8 @@ INJECTED from /home/new/test_air/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/new/test_air/android/app/src/main/AndroidManifest.xml
 MERGED from [:react-native-gesture-handler] /home/new/test_air/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /home/new/test_air/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-get-location] /home/new/test_air/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-get-location] /home/new/test_air/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] /home/new/.gradle/caches/transforms-2/files-2.1/cff6474536097947514819e7f5e4d479/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] /home/new/.gradle/caches/transforms-2/files-2.1/cff6474536097947514819e7f5e4d479/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /home/new/.gradle/caches/transforms-2/files-2.1/717c8d39a78f6179ac070965e73c326d/AndroidManifest.xml:7:5-9:41

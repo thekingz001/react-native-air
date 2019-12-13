@@ -86,7 +86,8 @@ export default class Login extends Component {
                         keyboardType="email-address"
                         underlineColorAndroid='transparent'
                         onChangeText={(email) => this.setState({ email })}
-                        value={this.state.email} />
+                        value={this.state.email}
+                        autoFocus={true} />
                 </View>
 
                 <View style={styles.inputContainer}>

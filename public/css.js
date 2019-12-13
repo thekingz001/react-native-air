@@ -93,6 +93,7 @@ const styles = StyleSheet.create({
         //   flex:1,
         borderColor: 'black',
         fontSize: 20
+        
       },
       inputIcon: {
         width: 30,

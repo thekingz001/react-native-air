@@ -9,7 +9,7 @@ import {
 import styles from '../public/css';
 
 var state = [];
-const userinfo = { email: 'admin@admin', password: 'admin' };
+// const userinfo = { email: 'admin@admin', password: 'admin' };
 
 export default class Register extends Component {
   registerfuntion = async () => {
