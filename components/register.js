@@ -13,12 +13,41 @@ const userinfo = { email: 'admin@admin', password: 'admin' };
 
 export default class Register extends Component {
   registerfuntion = async () => {
-    if (userinfo.email === this.state.email && userinfo.password === this.state.password) {
-      alert('Register');
-    }
-    else {
-      alert('No Register');
-    }
+    return fetch('http://192.168.1.11:8888/register', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        username: this.state.email,
+        name: this.state.name,
+        password: this.state.password,
+      })
+    })
+      .then((response) => {
+        if (response.status !== 200) {
+          console.log('Looks like there was a problem. Status Code: ' +
+            response.status);
+          return;
+        }
+        // Examine the text in the response
+        response.json().then((data) => {
+          if (data.x == 'register') {
+            alert('Register');
+            this.props.navigation.navigate('auth')
+        }
+        else{
+            alert('No Register');
+            this.props.navigation.navigate('auth')
+        }
+        });
+      }
+      )
+      .catch(function (err) {
+        console.log('Fetch Error :-S', err);
+      })
+      .done();
   }
 
   constructor(props) {
